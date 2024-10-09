@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textno2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to My App"
+        android:layout_marginLeft="120dp"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        />
+    <ImageView
+        android:id="@+id/imageno2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textno2"
+        android:layout_marginLeft="0dp"
+        android:padding="100dp"
+        android:background="@drawable/image"
+        />
+    <EditText
+        android:id="@+id/edittextno2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageno2"
+        android:layout_marginLeft="100dp"
+        android:padding="16dp"
+        android:layout_marginRight="100dp"
+        android:hint="Enter Your Name"
+        />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="76dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/edittextno2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="180dp"
+        android:padding="16dp"
+        android:hint="Submit"
+        />
+    <Button
+        android:layout_width="76dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/edittextno2"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:padding="16dp"
+        android:text="Cancel"
+        />
+
+</RelativeLayout>
